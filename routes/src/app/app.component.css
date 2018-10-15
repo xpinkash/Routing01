@@ -1,0 +1,51 @@
+.wrap{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background: #ffe0e0;
+}
+.innerwrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    padding: 15px 0;
+} 
+.logo {
+    width: 100px;    
+}
+.ovh {
+    overflow: hidden;
+}
+.fl {
+    float: left;
+}
+ul .navi {
+    list-style-type: none;
+    border-right: 1px solid #fff;
+}
+.navi a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 105px;
+}
+ul .navi:first-child{
+    border-left: 1px solid #fff;
+} 
+ul .navi a:last-child {
+    padding-right: 82.7px;
+    display: block;
+}
+.navigation {
+    background: #ffa19e;
+}
+.mainContent {
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffbcbc+15,ffffff+94 */
+background: #ffbcbc; /* Old browsers */
+background: -moz-linear-gradient(top, #ffbcbc 15%, #ffffff 94%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffbcbc 15%,#ffffff 94%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffbcbc 15%,#ffffff 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbcbc', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}

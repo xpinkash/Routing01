@@ -1,0 +1,25 @@
+<div [class.wrap] = 'true'>
+  <div [class.header] = 'true'>
+    <div [class.innerwrap] = 'true'>
+      <h1>
+        <a routerLink="/home"><img [class.logo] = 'true' [src] = 'logoImageUrl' alt=""></a>
+      </h1>
+    </div>
+  </div>
+  <div [class.navigation] = 'true'>
+    <div [class.innerwrap] = 'true'>
+      <ul [ngStyle]="{'overflow':'hidden','margin-top':'0','font-family':fontfam,'font-size':font-size}">
+        <li class="fl navi"><a routerLink="/home">Home</a></li>
+        <li class="fl navi"><a routerLink="/blog">Blog</a></li>
+        <li class="fl navi"><a routerLink="/about">About</a></li>
+        <li class="fl navi"><a routerLink="/contact-us">Contact-Us</a></li>
+        <li class="fl navi"><a routerLink="/portfolio">Portfolio</a></li>
+      </ul>
+    </div>
+  </div>
+  <div [class.mainContent] = 'true'>
+    <div [class.innerwrap] = 'true'>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
